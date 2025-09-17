@@ -1,6 +1,6 @@
 import multer from "multer";
 import path from "path";
-import { ApiError } from "../utils/apiError.js";
+import { ApiError } from "../utils/ApiError.js";
 
 // Set up storage engine
 const storage = multer.diskStorage({
